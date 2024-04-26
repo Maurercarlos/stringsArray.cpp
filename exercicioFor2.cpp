@@ -12,7 +12,7 @@ int main(){
     cout << "Escreva um número de 1 a 20: " << endl;
     cin >> tamanho;
 
-    for (int i = 2; i <= tamanho /2; i++)
+    for (int i = 2; i <= tamanho / 2; i++)
     {
         if (tamanho % i == 0) {
             aux = 1;
